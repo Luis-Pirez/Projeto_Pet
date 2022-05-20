@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff url(imagens/Foto-Principal.jpg) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+#topo {
+    height: 150px;
+    padding-top: 5px;
+      
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+#navegacao{
+    padding-left: 1em;
+    color: white;
+    cursor: text;
+    list-style: none;
+}
+
+/*.servicosNavegacao li a{
+    list-style: none;
+    text-align: center;
+    padding: 105;
+    
+}*/
+#topo ul a:hover {
+    color: #090342;
+    
+}
+#servicos ul a:hover{
+    display: inline;
+    color: #090342;
+        
+    }
+
+#topo ul li {
+    
+    padding-left: 100px;
+}
+#topo ul a {
+    /*font-size: 0.9em;*/
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+           
+}
+.texto-topo{
+    text-align: center;
+    padding-top: 20px;
+    color: blue;
+}
